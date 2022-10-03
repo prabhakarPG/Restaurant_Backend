@@ -25,7 +25,7 @@ router.post('/addNewRestaurant',(req,res)=>{
     add.save((err,additem)=>{
         if(err){
             return res.status(400).json({
-                error:'Error Occured. Please try again'
+                error:'Error Occured. Please try again. '+err
             })
         }
         res.json({

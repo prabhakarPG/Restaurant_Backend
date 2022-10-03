@@ -37,7 +37,7 @@ const HotelDetails = new Schema({
     },
 
 },{
-    //collection : 'Hotel'
+    collection : 'HotelDetails'
 },
 {
    timestamps:true
